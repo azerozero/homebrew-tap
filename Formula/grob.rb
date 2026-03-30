@@ -1,7 +1,7 @@
 class Grob < Formula
   desc "High-performance LLM routing proxy with built-in DLP"
   homepage "https://github.com/azerozero/grob"
-  version "0.30.1"
+  version "0.33.0"
   license "AGPL-3.0-only"
 
   on_macos do
