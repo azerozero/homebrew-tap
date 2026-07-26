@@ -1,26 +1,26 @@
 class Grob < Formula
   desc "High-performance LLM routing proxy with built-in DLP"
   homepage "https://github.com/azerozero/grob"
-  version "0.36.82"
+  version "0.36.83"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/azerozero/grob/releases/download/v#{version}/grob-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7fcbcd3418199ea3c808ac6c0c04e887181ad18eef9e713895a166b3daf97c5d"
+      sha256 "2053583b5fd5e4cf466cc79391b5ef127fcd987c3e29860519ee337a07a5aa02"
     else
       url "https://github.com/azerozero/grob/releases/download/v#{version}/grob-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "93bf477182f6553e4c4815c2c961c0f01db32bf2e5fb64532f66e5a20a2d03e9"
+      sha256 "1fbd6ca52b66364a71a3d2b2ed65eab4e342f795ab4dc9ba888d1cde502d7b16"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/azerozero/grob/releases/download/v#{version}/grob-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c52854e0f53218d128e004e81bf48aafaf5b6833313930e9b3d045d1bde03fe2"
+      sha256 "07197565202e7bb65638def5238911e918eda6838f127dadf5ceea72077fbc8e"
     else
       url "https://github.com/azerozero/grob/releases/download/v#{version}/grob-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "263aa547a61deda853aff1dab8673bc213bba91f7f3a12bfc4dc686cf4cf5b3a"
+      sha256 "635b50d49325884d05444fe4f9013b86e63ba3ee41a13da08c3f864ad51347a1"
     end
   end
 
