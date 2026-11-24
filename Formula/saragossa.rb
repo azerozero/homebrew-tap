@@ -1,9 +1,9 @@
 class Saragossa < Formula
   desc "Pure-Rust Metal inference engine for Apple Silicon LLMs, STT and TTS"
   homepage "https://github.com/azerozero/saragossa"
-  version "0.3.37"
+  version "0.3.38"
   url "https://github.com/azerozero/saragossa/releases/download/v#{version}/saragossa-v#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "14c4dc1d32e7d118f43517b5cd049e77efbf9017bfc60545883e4a44897786bf"
+  sha256 "c483ab58fc13289a703997106f0631486ca1a626d067e83cbe987f7ec6d5287b"
   license "Apache-2.0"
 
   depends_on arch: :arm64
